@@ -1,0 +1,18 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express" : "*", // nodejs에서 form을(mvc등 구조) 만들어주는 것
+    "ejs" : "*",// view template model 서버에서 날리는 것을 html은 동적으로 받지 못한다. ejs정적으로 변화시켜서 보여줄수 있도록한다.
+    "socket.io" : "*"// 서버와 통신을 위한것
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
